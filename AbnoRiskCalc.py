@@ -5,9 +5,15 @@ def riskClassCalc(dmg,diff,bp):
         print("This Abno has a Risk Class of:  Teth")
     elif dmg <= 3 and diff <= 6 and bp <= 3:
         print("This Abno has a Risk Class of:  He")
+<<<<<<< HEAD
     elif dmg <= 3 and diff <= 7 and bp <= 4:
         print("This Abno has a Risk Class of:  Waw")
     elif dmg <= 4 and diff >= 8 and bp <= 4:
+=======
+    elif dmg <= 3 and diff <= 7 and bp == 4:
+        print("This Abno has a Risk Class of:  Waw")
+    elif dmg == 4 and diff >= 8 and bp == 4:
+>>>>>>> 221ad56e101689fb10114a6fca002c31c3312e95
         print("This Abno has a Risk Class of:  Aleph")
     else:
         print("something went wrong")
